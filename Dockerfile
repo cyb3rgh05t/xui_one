@@ -27,4 +27,4 @@ RUN systemctl enable xuione
 
 WORKDIR /XUI/crack
 
-CMD ["/lib/systemd/systemd"]
+ENTRYPOINT ["/lib/systemd/systemd"]
